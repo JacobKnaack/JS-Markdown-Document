@@ -1,0 +1,21 @@
+{
+  "name": "js-markdown-document",
+  "version": "1.0.0",
+  "description": "Markdown document parser.  Creates document properties from markdown syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "markdown",
+    "document",
+    "metadata"
+  ],
+  "author": "@noHat",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1"
+  }
+}
