@@ -1,7 +1,10 @@
 'use strict';
 
-const Document = require('./lib/Document');
+const { Document, getDescription, getHeadings, getKeywords, getTitle } = require('./lib/Document');
 
-module.exports = {
-  Document,
-};
+exports.getDescription = getDescription;
+exports.getHeadings = getHeadings;
+exports.getKeywords = getKeywords;
+exports.getTitle = getTitle;
+
+module.exports = Document;

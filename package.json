@@ -1,7 +1,7 @@
 {
   "name": "js-markdown-document",
-  "version": "1.0.0",
-  "description": "Markdown document parser.  Creates document properties from markdown syntax.",
+  "version": "1.1.0",
+  "description": "Markdown document parser.  Creates document metadata from standard markdown syntax.",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
@@ -17,5 +17,8 @@
   "devDependencies": {
     "eslint": "^8.10.0",
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "keyword-extractor": "^0.0.21"
   }
 }
